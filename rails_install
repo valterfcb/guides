@@ -69,8 +69,11 @@ postgres=# \password
 #postgres=#
 \q
 
-  .PostgreSQL local connections without password
-sudo vim /etc/postgresql/POSTGRE_VERSION/main/pg_hba.conf
+psql --version
+#psql (PostgreSQL) 9.5.13
+  .PostgreSQL local connections without password (<POSTGRE_VERSION apagar e
+colocar que aparecer com o comando anterior)
+sudo vim /etc/postgresql/<POSTGRE_VERSION/main/pg_hba.conf
 
 
 
