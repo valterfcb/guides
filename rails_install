@@ -73,7 +73,10 @@ psql --version
 #psql (PostgreSQL) 9.5.13
   .PostgreSQL local connections without password (<POSTGRE_VERSION apagar e
 colocar que aparecer com o comando anterior)
+
 sudo vim /etc/postgresql/<POSTGRE_VERSION/main/pg_hba.conf
 
+  .change all methods to trust
+  .depois fazer :wqa para gravar e sair.
 
-
+COMPLETED
