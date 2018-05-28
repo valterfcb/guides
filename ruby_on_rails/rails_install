@@ -101,6 +101,9 @@ etc....
 
 rails server
 
+  .e abrir um browser e colar la o seguinte endereço
+
+http://localhost:3000
 
 
 
