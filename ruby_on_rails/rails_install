@@ -80,3 +80,27 @@ sudo vim /etc/postgresql/<POSTGRE_VERSION/main/pg_hba.conf
   .depois fazer :wqa para gravar e sair.
 
 COMPLETED
+
+Iniciar uma nova Web App
+
+  .No terminal abrir a rootfile onde a App vai ser guardada(ex: code)
+
+rails new <WEB_APP_NAME
+
+  .com o comando aterior, rails da logo git init, pelo que o repositório no
+github é logo criado, mas temos de fazer o restos dos passo habituas, menos git
+init
+
+git add
+..
+..
+..
+etc....
+
+  .O ultimo passo para "COMEÇAR /ou/ RETOMAR" a trabalhar é introduzir o seguinte comando
+
+rails server
+
+
+
+
