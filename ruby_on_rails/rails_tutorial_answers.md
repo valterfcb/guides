@@ -9,6 +9,6 @@
   2. Rails current version :s 5.2.0
   3. total downloads : 131,669,481
 
-*Question 1.1.2*
-  1. ruby version : 2.5.1
-  2. rails version : 5.2.0
+*Question 2.2.2*
+  1. controllers/users_controllers.rb action edit
+  2. views/users/edit.html.erb
