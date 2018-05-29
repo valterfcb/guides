@@ -10,5 +10,11 @@
   3. total downloads : 131,669,481
 
 *Question 2.2.2*
-  1. controllers/users_controllers.rb action edit
-  2. views/users/edit.html.erb
+  1. 1- controllers/users_controllers.rb action edit
+     2-views/users/edit.html.erb
+
+  2. def set_user
+          @user = User.find(params[:id])
+      end     @user = User.new
+  3. views/users/edit.html.erb
+
